@@ -11,7 +11,8 @@ export MANPATH=~/share/man:$MANPATH
 export MANPATH=$MANPATH:/usr/local/man
 
 # Catch any desired overrides
-export PATH=$PATHOVERRIDES:$PATH
+# I forget why I added this...
+#export PATH=$PATHOVERRIDES:$PATH
 
 # from zsh-completions package
 fpath=(/usr/local/share/zsh-completions $fpath)
